@@ -23,7 +23,7 @@ const Navbar = () => {
         scrolled ? "bg-white shadow-md py-2" : "py-4"
       }`}
     >
-      <div className="container mx-auto px-6 flex items-center justify-between">
+      <div className="container mx-auto px-12 flex items-center justify-between">
         <a href="#" className="text-2xl font-['Playfair_Display'] font-bold tracking-wide">
           Aditya Raul
         </a>
@@ -65,7 +65,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {mobileOpen && (
-        <div className="md:hidden bg-white absolute w-full left-0 top-full shadow-lg py-4 px-6">
+        <div className="md:hidden bg-white absolute w-full left-0 top-full shadow-lg py-4 px-12">
           <nav className="flex flex-col space-y-4">
             <a
               href="#portfolio"
