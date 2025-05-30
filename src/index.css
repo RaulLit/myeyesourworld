@@ -4,3 +4,138 @@
   --breakpoint-xs: 30rem;
   --breakpoint-2xs: 25rem;
 }
+
+:where([class^="ri-"])::before { content: "\f3c2"; }
+        
+body {
+  font-family: 'Work Sans', sans-serif;
+  color: #2a2a2a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+.masonry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: 10px;
+  grid-gap: 20px;
+}
+
+.masonry-item {
+  grid-row-end: span var(--span);
+  position: relative;
+  overflow: hidden;
+}
+
+.photo-overlay {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.masonry-item:hover .photo-overlay {
+  opacity: 1;
+}
+
+.modal {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.modal.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.category-btn.active {
+  background-color: #2a2a2a;
+  color: #f5f5f5;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 4px;
+  background: #e5e5e5;
+  border-radius: 4px;
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: #2a2a2a;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.custom-checkbox {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #2a2a2a;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.custom-checkbox.checked::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  width: 5px;
+  height: 10px;
+  border: solid #2a2a2a;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.custom-switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 24px;
+}
+
+.custom-switch-track {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e5e5e5;
+  border-radius: 24px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.custom-switch-thumb {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.custom-switch.active .custom-switch-track {
+  background-color: #2a2a2a;
+}
+
+.custom-switch.active .custom-switch-thumb {
+  transform: translateX(24px);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
