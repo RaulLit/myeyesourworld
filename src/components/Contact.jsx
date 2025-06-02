@@ -77,7 +77,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="py-20 relative">
-      <div className="container mx-auto px-16">
+      <div className="container mx-auto px-6 md:px-16">
         <h2 className="text-3xl font-bold mb-8 relative inline-block">
           Get In Touch
           <span className="absolute bottom-0 left-0 w-1/2 h-1 bg-black"></span>
@@ -97,7 +97,7 @@ const Contact = () => {
                   <div className="w-10 h-10 flex items-center justify-center mr-4 text-black">
                     <i className={`${info.icon} ri-lg`}></i>
                   </div>
-                  <div>
+                  <div className="overflow-auto">
                     <h3 className="text-black font-medium">{info.label}</h3>
                     <p className="text-secondary">{info.value}</p>
                   </div>

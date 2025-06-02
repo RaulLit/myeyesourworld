@@ -23,7 +23,7 @@ const Navbar = () => {
         scrolled ? "bg-white shadow-md py-2" : "py-4"
       }`}
     >
-      <div className="container mx-auto px-12 flex items-center justify-between">
+      <div className="container mx-auto px-8 md:px-12 flex items-center justify-between">
         <a href="#" className="text-2xl font-['Playfair_Display'] font-bold tracking-wide">
           Aditya Raul
         </a>
