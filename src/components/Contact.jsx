@@ -33,7 +33,7 @@ const Contact = () => {
 
   const platforms = [
     { label: "instagram", href: "https://www.instagram.com/myeyes.ourworld/" },
-    { label: "twitter", href: "https://x.com/adityakraul" },
+    { label: "twitter-x", href: "https://x.com/adityakraul" },
     { label: "linkedin", href: "https://www.linkedin.com/in/adityakraul/" },
   ];
 

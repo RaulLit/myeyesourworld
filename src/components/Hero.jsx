@@ -6,6 +6,7 @@ const Hero = () => {
         backgroundImage: "url('/cover_bg.jpeg')",
         backgroundPosition: "center 75%",
       }}
+      id="home"
     >
       <div className="absolute inset-0 bg-black/30 z-0"></div>
 
