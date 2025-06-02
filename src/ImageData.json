@@ -1,0 +1,105 @@
+{
+  "categories": ["landscape", "portrait", "street", "architecture", "nature"],
+  "images": [
+    {
+      "id": 1,
+      "type": "jpeg",
+      "date": "9 Nov 2021",
+      "time": "5:30 PM",
+      "location": "Devbag Beach, Majali, Karnataka, 581352",
+      "category": "landscape",
+      "alt": "small wave at a beach during sunset",
+      "keywords": ["water", "beach", "sun", "sunset", "reflection", "sea"]
+    },
+    {
+      "id": 2,
+      "type": "jpg",
+      "date": "20 Jul 2021",
+      "time": "7:28 AM",
+      "location": "Driving Range, Kharghar, Maharashtra, 410210",
+      "category": "nature",
+      "alt": "waterfall during dark cloudy weather in the morning",
+      "keywords": ["water", "waterfall", "cliff", "dark", "clouds"]
+    },
+    {
+      "id": 3,
+      "type": "jpeg",
+      "date": "9 Nov 2021",
+      "time": "5:45 AM",
+      "location": "Devbag Beach, Majali, Karnataka, 581352",
+      "category": "landscape",
+      "alt": "blue ambience with boat in the middle with its reflection on beach in the morning",
+      "keywords": ["water", "reflection", "boat", "dark", "morning", "blue"]
+    },
+    {
+      "id": 4,
+      "type": "jpg",
+      "date": "9 Nov 2021",
+      "time": "5:20 PM",
+      "location": "Devbag Beach, Majali, Karnataka, 581352",
+      "category": "landscape",
+      "alt": "kids playing at beach with sand and shells in focus",
+      "keywords": ["water", "beach", "kids", "sunset", "sun", "sand", "shells", "orange", "wave"]
+    },
+    {
+      "id": 5,
+      "type": "jpg",
+      "date": "6 Nov 2021",
+      "time": "5:53 PM",
+      "location": "Devbag Beach, Majali, Karnataka, 581352",
+      "category": "landscape",
+      "alt": "dark clouds during sunset and kids running towards water with reflection of sunset on beach",
+      "keywords": ["water", "beach", "kids", "sunset", "clouds", "reflection", "dark", "orange", "wave"]
+    },
+    {
+      "id": 6,
+      "type": "jpeg",
+      "date": "2 Nov 2021",
+      "time": "9:14 AM",
+      "location": "Devbag Bridge, Majali, Karnataka, 581352",
+      "category": "landscape",
+      "alt": "nice blue sky and a lake surrounded with greenary",
+      "keywords": ["water", "lake", "trees", "blue", "sky", "green", "greenary", "coconut"]
+    },
+    {
+      "id": 7,
+      "type": "jpg",
+      "date": "20 Sept 2021",
+      "time": "6:16 PM",
+      "location": "Central Park Road, Kharghar, Maharashtra, 410210",
+      "category": "nature",
+      "alt": "orange sunset with dark clouds enveloping from either sides",
+      "keywords": ["trees", "dark", "clouds", "sun", "sky", "sunset", "shadow", "orange"]
+    },
+    {
+      "id": 8,
+      "type": "jpg",
+      "date": "3 Sept 2021",
+      "time": "7:36 AM",
+      "location": "Jalvayu Phase 2, Kharghar, Maharashtra, 410210",
+      "category": "landscape",
+      "alt": "inside basketball court a reflection of the hoop on a water puddle",
+      "keywords": ["trees", "dark", "blue", "water", "basketball", "court", "shadow", "morning", "monsoon"]
+    },
+    {
+      "id": 9,
+      "type": "jpg",
+      "date": "29 Aug 2021",
+      "time": "7:25 AM",
+      "location": "Central Park Road, Kharghar, Maharashtra, 410210",
+      "category": "nature",
+      "alt": "black & white image of a flower",
+      "keywords": ["black", "dark", "white", "contrast", "flower", "blur", "shadow"]
+    },
+    {
+      "id": 10,
+      "type": "jpg",
+      "date": "28 Aug 2021",
+      "time": "10:07 AM",
+      "location": "PandavKada, Kharghar, Maharashtra, 410210",
+      "category": "landscape",
+      "alt": "waterfall in view at a distance and water puddle in front with greenary hiding the bottom of waterfall",
+      "keywords": ["black", "dark", "white", "contrast", "flower", "blur", "shadow"]
+    }
+  ]
+}
